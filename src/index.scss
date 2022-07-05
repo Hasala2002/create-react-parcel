@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+html,body,#root{
+    width: 100%;
+    height: 100%;
+}
+
+.App{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    .App-Logo{
+        width: 325px;
+        height: 325px;
+        position: relative;
+        img{
+            position: absolute
+        }
+        .React-Logo{
+            width: 150px;
+            height: auto;
+            z-index: 2;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: floating 3s infinite ease-in-out;
+        }
+        .Logo-Front{
+            z-index: 3;
+        }
+        .Logo-Back{
+            z-index: 1;
+        }
+    }
+    span{
+        color: white;
+        font-weight: bold;
+        font-size: 1.5em;
+        word-spacing: 5px;
+    }
+
+    .code{
+        font-family: 'Fira Code', monospace;
+        font-size: .9em;
+        background-color: #ffffff41;
+        padding: 5px 10px;
+        border-radius: 50px;
+    }
+}
+
+@keyframes floating{
+    0% { transform: translate(0,  0px) translateX(-50%); } 
+    50%  { transform: translate(0, 50px) translateX(-50%); } 
+    100%   { transform: translate(0, -0px) translateX(-50%); } 
+}
