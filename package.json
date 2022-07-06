@@ -1,15 +1,20 @@
 {
-  "name": "create-react-parcel",
+  "name": "@hasala2002/create-react-parcel",
   "version": "1.0.0",
   "description": "Parcel // React Boilerplate",
   "main": "src/index.js",
   "source": "/src/index.html",
+  "bin": "./bin/cli.js",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "author": "Hasala Heiyanthuduwa",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Hasala2002/create-react-parcel.git"
+  },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
     "parcel": "^2.6.2",

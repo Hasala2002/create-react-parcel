@@ -11,6 +11,7 @@ const App = () => {
             <img className="Logo-Back" src={LogoBack} alt="logo back" />
         </div>
         <span>Edit <span className="code">src/App.jsx</span> and save to reload.</span>
+        <a className="Learn-More" href="https://github.com/Hasala2002/create-react-parcel" target="_blank">Learn More</a>
     </div>
   )
 }
