@@ -2,7 +2,6 @@
   "name": "@hasala2002/create-react-parcel",
   "version": "1.0.0",
   "description": "Parcel // React Boilerplate",
-  "main": "src/index.js",
   "source": "/src/index.html",
   "bin": "./bin/cli.js",
   "scripts": {
