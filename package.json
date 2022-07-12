@@ -12,8 +12,8 @@
   "author": "Hasala Heiyanthuduwa",
   "license": "ISC",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Hasala2002/create-react-parcel.git"
+    "type": "git",
+    "url": "https://github.com/Hasala2002/create-react-parcel.git"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
@@ -21,8 +21,10 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "framer-motion": "^6.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "sass": "^1.53.0"
   }
 }

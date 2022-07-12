@@ -3,3 +3,4 @@ node_modules
 dist
 bin
 .npmignore
+README.md
